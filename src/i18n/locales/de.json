@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "title": "Landing Titel",
+    "description": "Kurze Beschreibung für SEO."
+  },
+  "header": {
+    "menu_1": "Home",
+    "menu_2": "Lösungen",
+    "menu_3": "Über AICONIQ",
+    "menu_4": "Kontakt"
+  },
+  "hero": {
+    "title": "Wir erstellen großartige Landingpages",
+    "subtitle": "Pixelgenau, schnell und responsiv."
+  },
+  "features": {
+    "title": "Funktionen",
+    "f1": "Schnelle Ladezeiten",
+    "f2": "Responsives Design",
+    "f3": "Einfach anzupassen"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten"
+  }
+}

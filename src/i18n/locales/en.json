@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "title": "Landing Title",
+    "description": "Short description for SEO."
+  },
+  "header": {
+    "cta": "Get Started",
+    "menu_about": "About",
+    "menu_features": "Features",
+    "menu_contact": "Contact"
+  },
+  "hero": {
+    "title": "We build amazing landing pages",
+    "subtitle": "Pixel-perfect, fast, and responsive."
+  },
+  "features": {
+    "title": "Features",
+    "f1": "Fast load times",
+    "f2": "Responsive design",
+    "f3": "Easy to customize"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

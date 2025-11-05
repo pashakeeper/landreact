@@ -7,7 +7,6 @@ export const supportedLngs = ["en", "de"] as const;
 export type Lng = typeof supportedLngs[number];
 export const fallbackLng: Lng = "de";
 
-// Язык берём строго из URL (роутер передаст, см. router/index.tsx)
 export function initI18n(initialLng: Lng) {
   i18n
     .use(initReactI18next)

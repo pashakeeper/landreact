@@ -13,8 +13,8 @@ function useUrlLanguage(): Lng {
 }
 export default function Header() {
   const lng = useUrlLanguage();
-  const i18n = useMemo(() => initI18n(lng), [lng]); // re-init при смене префикса
-  // принудительно переключим i18n, если уже был инициализирован
+  const i18n = useMemo(() => initI18n(lng), [lng]); 
+  
   useEffect(() => {
     if (i18n.language !== lng) i18n.changeLanguage(lng);
   }, [lng, i18n]);

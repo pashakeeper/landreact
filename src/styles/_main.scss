@@ -1,0 +1,43 @@
+.header {
+  height: 42px;
+  position: absolute;
+  top: 53px;
+  width: 100%;
+  left: 0;
+  .container-fluid {
+    padding: 0 68px;
+  }
+}
+.logo {
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(0.99);
+  }
+}
+.lang {
+  margin-left: auto;
+  margin-right: 20px;
+  * {
+    font-size: 14px;
+  }
+}
+.main_menu {
+  column-gap: 32px;
+  li {
+    a {
+      padding-bottom: 8px;
+    }
+  }
+}
+.section_01 {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 24px;
+  .container-fluid {
+    padding-left: 31px;
+    padding-right: 31px;
+    background: url('../assets/hero_img.png') center top no-repeat;
+    background-size: 100%;
+    padding-top: 521px;
+  }
+}

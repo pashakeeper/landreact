@@ -23,8 +23,8 @@ export default function Header() {
   const location = useLocation();
   return (
     <header className="header">
-      <div className="container">
-        <div className="row">
+      <div className="container-fluid">
+        <div className="row align-items-center">
           <div className="col-lg-3">
             <div className="logo">
               <Link to={"/"}>

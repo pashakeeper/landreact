@@ -16,9 +16,13 @@
 }
 .lang {
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: 65px;
   * {
     font-size: 14px;
+    &:hover {
+      color: #d8008d;
+      cursor: pointer;
+    }
   }
 }
 .main_menu {
@@ -26,17 +30,78 @@
   li {
     a {
       padding-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      position: relative;
+      &::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #d8008d;
+        transition: all 0.3s ease;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      &:hover::after {
+        width: 100%;
+        opacity: 1;
+        visibility: visible;
+      }
     }
   }
 }
+
 .section_01 {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 24px;
+  h1 {
+    font-size: 64px;
+    .dot {
+      color: #d8008d;
+    }
+    .avatars_row {
+      position: relative;
+      img:nth-child(1) {
+        margin-left: 0;
+      }
+      img:nth-child(2) {
+        border: 8px solid #000;
+        border-radius: 100%;
+        margin-left: -30px;
+      }
+      img:nth-child(3) {
+        border: 8px solid #000;
+        border-radius: 100%;
+        margin-left: -35px;
+        box-shadow: -2px 3px 8px 0px rgba(255, 46, 217, 0.1),
+          -10px 11px 14px 0px rgba(255, 46, 217, 0.19),
+          -22px 24px 19px 0px rgba(255, 46, 217, 0.09),
+          -39px 43px 23px 0px rgba(255, 46, 217, 0.1),
+          -61px 67px 25px 0px rgba(255, 46, 217, 0);
+        background: rgba(33, 33, 33, 1);
+      }
+    }
+    .colored {
+      background: linear-gradient(
+        45deg,
+        rgba(212.0913543701172, 90.75061798095703, 169.9591522216797, 1),
+        rgba(198.3184356689453, 0, 129.45787048339844, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  }
   .container-fluid {
     padding-left: 31px;
     padding-right: 31px;
-    background: url('../assets/hero_img.png') center top no-repeat;
+    background: url("../assets/hero_img.png") center top no-repeat;
     background-size: 100%;
     padding-top: 521px;
   }

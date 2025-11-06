@@ -14,6 +14,23 @@
     "title_2": "Wir liefern",
     "title_3": "digitale Mitarbeiter",
     "description": "Digitale Kollegen, die Ihr Unternehmen verstehen, mitdenken und mitarbeiten – für weniger Routine, mehr Innovation und echten Geschäftswert."
+  },
+  "btn": {
+    "btn_1": "Sprich mit mir",
+    "sec_btn_1": "Automatisierung ",
+    "sec_btn_1_1": "Zusammenarbeit"
+  },
+  "description_with_data": {
+    "data_1_quant": "Bis zu 9x",
+    "desc_1": "Schnellere Time-to-Market",
+    "data_2_quant": "-40%",
+    "desc_2": "Implementierungsdauer",
+    "data_3_quant": "-60%",
+    "desc_3": "Projektkosten"
+  },
+  "section_2": {
+    "title_first_word": "AICONIQ",
+    "title": " – Automatisiert, was aufhält. Erweitert, was bewegt.",
+    "desc": "AICONIQ entlastet, wo Prozesse bremsen und befähigt, wo Entscheidungen zählen. So entsteht ein Arbeitsumfeld, in dem Routine läuft und Menschen gestalten."
   }
-  
 }

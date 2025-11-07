@@ -30,7 +30,45 @@
   },
   "section_2": {
     "title_first_word": "AICONIQ",
-    "title": " – Automatisiert, was aufhält. Erweitert, was bewegt.",
-    "desc": "AICONIQ entlastet, wo Prozesse bremsen und befähigt, wo Entscheidungen zählen. So entsteht ein Arbeitsumfeld, in dem Routine läuft und Menschen gestalten."
+    "title": " – Automatisiert, was aufhält. \n Erweitert, was bewegt.",
+    "desc": "AICONIQ entlastet, wo Prozesse bremsen und befähigt, wo Entscheidungen zählen. So entsteht ein \n Arbeitsumfeld, in dem Routine läuft und Menschen gestalten.",
+    "card_1": {
+      "badge": "Automatisierung",
+      "title": "Automatisierung neu gedacht",
+      "description": "Weniger Zeit mit Suchen, Abstimmen, Nacharbeiten, mehr Zeit für das Wesentliche. AICONIQ automatisiert wiederkehrende Aufgaben und schafft reibungslose Abläufe über Teams und Systeme hinweg.",
+      "list_title": "Typische Einsatzfelder",
+      "list": {
+        "item_1": "Reporting & Dokumentation",
+        "item_2": "Datenpflege & Prozesssteuerung",
+        "item_3": "Meeting-Protokolle & Wissensarchivierung",
+        "item_4": "Termin- & Aufgabenplanung"
+      },
+      "label": "So funktioniert’s",
+      "text": "Ihr Unternehmen nutzt AICONIQ, um wöchentlich 20 Stunden an manueller Datenaufbereitung zu sparen. \n\n\n Das System erkennt Muster in Berichten, fasst Ergebnisse automatisch zusammen und verteilt sie direkt an die richtigen Personen.",
+      "card_1_card": {
+        "title": "DAS ERGEBNIS",
+        "percent": "40",
+        "percent_text": "schnellere Abläufe – und mehr Kapazität im Tagesgeschäft."
+      }
+    },
+    "card_2": {
+      "badge": "Zusammenarbeit",
+      "title": "Intelligenz, die mitdenkt",
+      "description": "AICONIQ arbeitet nicht anstatt, sondern mit Menschen. Unsere digitalen Co-Worker unterstützen Teams dort, wo Erfahrung, Strategie und Urteilsvermögen gefragt sind. Sie bringen Wissen zusammen, analysieren Optionen und helfen, bessere Entscheidungen zu treffen – in Echtzeit.",
+      "list_title": "Typische Einsatzfelder",
+      "list": {
+        "item_1": "Strategie- und Produktentwicklung",
+        "item_2": "Entscheidungsunterstützung im Management",
+        "item_3": "Ideenfindung & Innovationsprozesse",
+        "item_4": "Marketing & Kommunikation"
+      },
+      "label": "So funktioniert’s",
+      "text": "Ihr Unternehmen nutzt AICONIQ, um Ideen für neue Service-Modelle zu entwickeln. Der Co-Worker verknüpft internes Erfahrungswissen mit Markt- und Kundendaten, zeigt Trends auf und schlägt passende Modelle vor. Das Team entscheidet schneller – auf Basis klarer Fakten statt Bauchgefühl.",
+      "card_1_card": {
+        "title": "Ein System. Zwei Wirkungen. Ein Ziel.",
+        "description": "AICONIQ verbindet operative Entlastung mit strategischer Intelligenz. Routine verschwindet, Wissen wird nutzbar, Entscheidungen werden klarer. So entsteht eine Organisation, die nicht nur effizienter arbeitet – sondern auch klüger handelt.",
+        "btn_text": "Sprich mit mir"
+      }
+    }
   }
 }

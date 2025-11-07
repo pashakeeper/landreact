@@ -8,8 +8,9 @@ import play from "./play.png";
 import sound from "./sound.png";
 import icon_main from "./icon_main.webp";
 import dot from "./dot.png";
+import video from "./video.mp4";
 
-export { logo, avatar1, avatar2, avatar3, arrowRight, buttonImg, play, sound, icon_main, dot };
+export { logo, avatar1, avatar2, avatar3, arrowRight, buttonImg, play, sound, icon_main, dot, video };
 
 
 export const IMAGES = {
@@ -23,4 +24,5 @@ export const IMAGES = {
   sound,
   icon_main,
   dot,
+  video,
 } as const;

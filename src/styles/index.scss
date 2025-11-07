@@ -1,3 +1,4 @@
 @use "./utilites";
 @use "./root.scss" as *;
+@forward "./button";
 @forward "./main";

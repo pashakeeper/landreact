@@ -10,6 +10,9 @@ export default function Home() {
       <Header />
       <section className="section_01" id="section_01">
         <div className="container-fluid">
+          <div className="video_box" >
+            <video src={IMAGES.video} autoPlay muted loop ></video>
+          </div>
           <div className="row align-items-center">
             <div className="col-lg-9">
               <h1>
@@ -86,9 +89,17 @@ export default function Home() {
         <div className="container section_02_container">
           <div className="row">
             <div className="col-lg-12">
-              <a href="#" className="sec_btn">{t("btn.sec_btn_1")} <span>VS</span> {t("btn.sec_btn_1_1")}</a>
-              
+              <a href="#" className="sec_btn"><i className="start"></i>{t("btn.sec_btn_1")} <span>VS</span> {t("btn.sec_btn_1_1")} <i></i></a>
+              <h2 className="text-center"><span>{t("section_2.title_first_word")}</span>{t("section_2.title")}</h2>
+              <p className="desc">{t("section_2.desc")}</p>
             </div>
+            <div className="col-lg-6">
+              <div className="section_2__box">
+                <div className="badge_secondary">{t("section_2.card_1.badge")}</div>
+                <h3>{t("section_2.card_1.title")}</h3>
+              </div>
+            </div>
+            <div className="col-lg-6"></div>
           </div>
         </div>
       </section>

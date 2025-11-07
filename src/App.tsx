@@ -8,8 +8,6 @@ export default function App() {
   const lang = (supportedLngs as readonly string[]).includes(normalized)
     ? (normalized as Lng)
     : fallbackLng;
-
-  // Ensure i18n is initialized before any child calls useTranslation()
   useMemo(() => initI18n(lang), [lang]);
 
   return (

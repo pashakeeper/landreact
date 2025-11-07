@@ -1,0 +1,108 @@
+.main_btn {
+  max-width: 218px;
+  width: 100%;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.7s ease-in-out;
+  background: url("../assets/main_btn_bg.webp") center center / 100% 100%
+    no-repeat;
+  position: relative;
+  &:hover {
+    background: url("../assets/main_btn_bg_hover.webp") center center / 100%
+      100% no-repeat;
+  }
+  i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 11px;
+    margin-right: -11px;
+  }
+}
+.sec_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  background: url("../assets/badge_bg.png") center center / 100% 100% no-repeat;
+  max-width: 297px;
+  width: 100%;
+  height: 36px;
+  position: relative;
+  span {
+    font-size: 8px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.48);
+    margin: 0 5px;
+  }
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  i {
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    border-radius: 99px;
+    filter: blur(14px);
+    width: 58px;
+    height: 20px;
+    background: rgba(255, 33, 178, .8);
+    opacity: 0;
+    transition: all .9s linear;
+  }
+  i.start {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    border-radius: 99px;
+    filter: blur(14px);
+    width: 58px;
+    height: 20px;
+    background: rgba(255, 33, 178, .9);
+    opacity: 0;
+    transition: all .9s linear;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    border-radius: 99px;
+    filter: blur(14px);
+    background: rgba(255, 33, 178, 1);
+    width: 139px;
+    height: 27px;
+    top: -4px;
+    left: 50%;
+    transition: all .9s ease;
+    z-index: -1;
+    opacity: 0;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    border-radius: 99px;
+    filter: blur(14px);
+    background: rgba(255, 33, 178, .6);
+    width: 70px;
+    height: 27px;
+    bottom: -4px;
+    left: 10%;
+    transition: all .9s ease;
+    z-index: -1;
+    opacity: 0;
+  }
+  &:hover::before {
+    left: 0;
+    opacity: 1;
+  }
+  &:hover::after {
+    left: 65%;
+    opacity: 1;
+  }
+  &:hover i {
+    opacity: 1;
+  }
+}

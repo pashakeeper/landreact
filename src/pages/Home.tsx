@@ -393,7 +393,7 @@ export default function Home() {
                     <div className="row animate_row">
                         <div className="col-lg-6 p-0">
                             <div className="section_03_box__image">
-                                
+                                <img src="" alt=""/>
                             </div>
                         </div>
                         <div className="col-lg-6 p-0 animate_box">

@@ -34,8 +34,8 @@
     "desc": "AICONIQ entlastet, wo Prozesse bremsen und befähigt, wo Entscheidungen zählen. So entsteht ein \n Arbeitsumfeld, in dem Routine läuft und Menschen gestalten.",
     "card_1": {
       "badge": "Automatisierung",
-      "title": "Automatisierung neu gedacht",
-      "description": "Weniger Zeit mit Suchen, Abstimmen, Nacharbeiten, mehr Zeit für das Wesentliche. AICONIQ automatisiert wiederkehrende Aufgaben und schafft reibungslose Abläufe über Teams und Systeme hinweg.",
+      "title": "Effizienz, die sofort wirkt",
+      "description": "Weniger Zeit mit Suchen, Abstimmen, Nacharbeiten, mehr Zeit für \n das Wesentliche. AICONIQ automatisiert wiederkehrende Aufgaben \n und schafft reibungslose Abläufe über Teams und Systeme hinweg.",
       "list_title": "Typische Einsatzfelder",
       "list": {
         "item_1": "Reporting & Dokumentation",
@@ -43,12 +43,12 @@
         "item_3": "Meeting-Protokolle & Wissensarchivierung",
         "item_4": "Termin- & Aufgabenplanung"
       },
-      "label": "So funktioniert’s",
-      "text": "Ihr Unternehmen nutzt AICONIQ, um wöchentlich 20 Stunden an manueller Datenaufbereitung zu sparen. \n\n\n Das System erkennt Muster in Berichten, fasst Ergebnisse automatisch zusammen und verteilt sie direkt an die richtigen Personen.",
+      "label": "Praxis Beispiel",
+      "text": "Ihr Unternehmen nutzt AICONIQ, um wöchentlich 20 Stunden an manueller Datenaufbereitung zu sparen. \n\n Das System erkennt Muster in Berichten, fasst Ergebnisse automatisch zusammen und verteilt sie direkt an die richtigen Personen.",
       "card_1_card": {
         "title": "DAS ERGEBNIS",
         "percent": "40",
-        "percent_text": "schnellere Abläufe – und mehr Kapazität im Tagesgeschäft."
+        "percent_text": "schnellere Abläufe – \n und mehr Kapazität im \n Tagesgeschäft."
       }
     },
     "card_2": {
@@ -70,5 +70,73 @@
         "btn_text": "Sprich mit mir"
       }
     }
+  },
+  "section_3": {
+    "title_first_word": "AICONIQ",
+    "title_1": "Was",
+    "title_2": "anders macht",
+    "description": "Während Assistenten Aufgaben ausführen, verstehen AICONIQ Co-Worker Ihr Unternehmen.",
+    "btn_text": "Positionierung",
+    "section_3__box": {
+      "box_1": {
+        "badge": "Assistenten reagieren",
+        "title": "AICONIQ handelt.",
+        "description": "Die meisten KI-Systeme funktionieren reaktiv: Sie beantworten Fragen,\n erledigen einzelne Aufgaben oder liefern Textvorschläge. Nützlich a aber \n begrenzt. Denn sie verstehen weder den Kontext eines Unternehmens noch \n die Zusammenhänge, in denen Entscheidungen entstehen."
+      },
+      "box_2": {
+        "title": "Geht einen \n Schritt weiter",
+        "title_bg": "AICO\nNIQ",
+        "description": "Unsere digitalen Co-Worker arbeiten mit dem Wissen, den  Daten und den Abläufen Ihres Unternehmens und handeln, als wären sie Teil Ihres Teams. Sie  erkennen Muster, lernen aus Erfahrung und unterstützen dort, wo Wissen in  Wirkung übersetzt werden muss: im Tagesgeschäft."
+      }
+    },
+    "section_3__table": {
+      "thead": {
+        "th_1": "Systemtyp",
+        "th_2": "Beispiel",
+        "th_3": "Arbeitsweise",
+        "th_4": "Grenzen",
+        "th_5": "AICONIQ Vorteil"
+      },
+      "tbody": {
+        "item_1": "Assistenten",
+        "item_2": "ChatGPT, CoPilot etc.",
+        "item_3": "RAC / RAD",
+        "item_4": "Kein unternehmenskontext",
+        "item_5": "AICONIQ versteht unternehmens spezifische Strukturen, Prozesse und Ziele",
+        "item_6": "KI-Assistentz systeme",
+        "item_7": "RAC / RAD",
+        "item_8": "Prozessgebunden, vordefiniert",
+        "item_9": "Keine lerfahigkeit",
+        "item_10": "AICONIQ lernt, denkt und agiert kontextbezogen",
+        "item_11": "AICONIQ Co-Worker",
+        "item_12": "Kontextualisiert, unternehmensspezifisch, lernen",
+        "item_13": "-",
+        "item_14": "Handelt mit Unternehmenswissen – nicht nur mit Daten"
+      }
+    },
+    "section_3__note_1": {
+      "title": "So zeigt sich das im Alltag",
+      "badge": "Kompetenzen",
+      "description": "Ihr Unternehmen nutzt AICONIQ, um das Wissen Ihrer erfahrensten Mitarbeitenden zu sichern. Während ein klassischer Assistent Anfragen beantwortet, analysiert AICONIQ interne Dokumente, Gespräche und Projekterfahrungen. Das System erkennt, welche Arbeitsschritte entscheidend sind, schlägt Verbesserungen vor und übernimmt Routineaufgaben – etwa das Reporting oder die Angebotserstellung."
+    },
+    "section_3__note_2": {
+      "title": "Mehr Effizienz im Tagesgeschäft",
+      "badge": "DAS ERGEBNIS",
+      "description": "schnellere Entscheidungen und eine Organisation, die von ihrem eigenen Wissen profitiert."
+    }
+  },
+  "section_04": {
+    "btn_1": "PROBLEM",
+    "separator": "und",
+    "btn_2": "LÖSUNG",
+    "title": "Wir verkaufen keine KI. Wir liefern Umsetzung",
+    "description_1": "In jedem Unternehmen steckt Wissen, das in Köpfen bleibt und mit Ihren Mitarbeitenden verschwindet. AICONIQ macht dieses Wissen sichtbar, nutzbar und messbar.",
+    "description_2": "So entsteht eine digitale Workforce, die Routinen übernimmt, Wissen validiert und Ihr Team stärkt.",
+    "cta_text": "So funktioniert AICONIQ"
+  },
+  "section_05": {
+    "btn_text": "Wissen",
+    "title_first_word": "AICONIQ",
+    "title": "So funktioniert"
   }
 }

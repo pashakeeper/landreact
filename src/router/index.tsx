@@ -1,8 +1,7 @@
-import React from "react";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import App from "../App";
 import Home from "../pages/Home";
-import { supportedLngs, fallbackLng } from "../i18n";
+import { fallbackLng } from "../i18n";
 
 export const router = createBrowserRouter([
   
